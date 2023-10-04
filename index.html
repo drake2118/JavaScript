@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice</title>
+</head>
+<body>
+  <p id="p1" onclick="turn()">Turn this into RED</p>
+  <script>
+    
+    function turn(){
+      if(document.getElementById("p1").style.color=="red")
+    {
+      document.getElementById("p1").style.color="black";
+      document.getElementById("p1").style.fontSize="50px";
+    }else{
+      document.getElementById("p1").style.fontSize="30px";
+      document.getElementById("p1").style.color="red";
+      document.getElementById("p1").style.backgroundColor="yellow";
+    }
+    }
+  </script>
+</body>
+</html>
